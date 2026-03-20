@@ -28,13 +28,17 @@ are included.
 It is not necessary to load the files as all the aggregated trade matrices and parameters are included.
 
 ## How to Run
-Optional:
-1. Place all raw WIOD CSV files in the same folder as the scripts
-2. Run `create_DATA_files.m` to produce `DATA_YY.mat` files
-3. Run `parameters.m` to produce `PARAMETERS_YY_AGG.mat` files
 
-Mandatory:
-5. Run any of the three model scripts to reproduce the results
+**If the `DATA_YY.mat` and `PARAMETERS_YY_AGG.mat` files are not included:**
+1. Obtain the raw WIOD CSV files from [www.wiod.org](http://www.wiod.org) and place them in the same folder as the scripts
+2. Run `create_DATA_files.m` to produce `DATA_YY.mat` files
+3. Run `clean_aggregate_WIOD.m` to produce `PARAMETERS_YY_AGG.mat` files
+
+**To reproduce the results:**
+
+4. Run `baseline_model.m` — one sector, no intermediates
+5. Run `multisector_model.m` — multiple sectors, no intermediates
+6. Run `linkage_model.m` — full model with intermediate input linkages
 
 ## Reference
 Costinot, A., & Rodríguez-Clare, A. (2014). Trade theory with numbers: Quantifying the consequences of globalization. In Handbook of international economics (Vol. 4, pp. 197-261). Elsevier.
