@@ -38,7 +38,7 @@ It is not necessary to load the files as all the aggregated trade matrices and p
 
 4. Run `baseline_model.m` — one sector, no intermediates
 5. Run `multisector_model.m` — multiple sectors, no intermediates
-6. Run `linkage_model.m` — full model with intermediate input linkages
+6. Run `linkage_model.m` — full model with intermediate input linkages. This file also includes all scenarios used in the paper.
 
 ## Reference
 Costinot, A., & Rodríguez-Clare, A. (2014). Trade theory with numbers: Quantifying the consequences of globalization. In Handbook of international economics (Vol. 4, pp. 197-261). Elsevier.
