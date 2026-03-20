@@ -32,6 +32,7 @@ Optional:
 1. Place all raw WIOD CSV files in the same folder as the scripts
 2. Run `create_DATA_files.m` to produce `DATA_YY.mat` files
 3. Run `parameters.m` to produce `PARAMETERS_YY_AGG.mat` files
+
 Mandatory:
 5. Run any of the three model scripts to reproduce the results
 
